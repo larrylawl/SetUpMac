@@ -6,7 +6,7 @@ echo "Setting variables for $(basename $0)"
 directories="projects learn/uni learn/selfLearn"
 
 echo "CD to home directory"
-# cd ~
+cd ~
 
 echo "Making directories"
 for dir in $directories; do
