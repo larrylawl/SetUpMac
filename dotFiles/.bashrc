@@ -32,6 +32,9 @@ alias gdr="git push origin --delete"
 alias gm="git merge --no-edit"
 alias gd="git diff"
 
+# Misc aliases
+alias stat="stat -x"
+
 # Add git branch if its present to PS1
 parse_git_branch() {
   local g="$(git rev-parse --git-dir 2>/dev/null)"
