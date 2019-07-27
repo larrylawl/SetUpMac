@@ -3,7 +3,7 @@
 # TODO: Graphic representation of directories
 
 echo "Setting variables for $(basename $0)"
-directories="projects learn/uni learn/selfLearn"
+directories="Projects Learn/Uni Learn/SelfLearn"
 
 echo "CD to home directory"
 cd ~

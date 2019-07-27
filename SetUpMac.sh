@@ -7,10 +7,10 @@ echo "Granting Permission for scripts"
 chmod +x $dir/*
 
 echo "Installing packages..."
-$dir/setUpPackages.sh
+$dir/SetUpPackages.sh
 
 echo "Setting up directories..."
-$dir/setUpDirectories.sh
+$dir/SetUpDirectories.sh
 
 echo "Symlinking dot files..."
-$dir/setUpSymlinks.sh
+$dir/SetUpSymlinks.sh
