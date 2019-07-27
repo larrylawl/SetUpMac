@@ -7,5 +7,6 @@ echo "Installing brew"
 echo "Installing tab completion for bash on osx"
 brew install bash-completion
 
-echo "Installing gnu grep"
+echo "Installing gnu"
 brew install grep
+brew install gnu-sed
