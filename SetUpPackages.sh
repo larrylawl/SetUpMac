@@ -10,3 +10,16 @@ brew install bash-completion
 echo "Installing gnu"
 brew install grep
 brew install gnu-sed
+
+echo "Installing colordiff"
+brew install colordiff
+
+echo "Installing gcc"
+brew install gcc
+brew cleanup # this removes previous application revisions, saving space"
+
+echo "Installing gdb"
+brew install gdb
+
+echo "Installing python3"
+brew install python
