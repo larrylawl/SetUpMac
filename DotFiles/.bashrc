@@ -1,4 +1,8 @@
 alias chrome="open -a 'Google Chrome'"
+alias python="python3"
+
+# JDK 11 for 2103
+export JAVA_HOME=`/usr/libexec/java_home -v 11.0.4`
 
 # Colors for prompt
 export CLICOLOR=1
