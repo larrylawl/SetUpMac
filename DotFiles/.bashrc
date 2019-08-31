@@ -35,6 +35,8 @@ alias gbd="git branch -d"
 alias gdr="git push origin --delete"
 alias gm="git merge --no-edit"
 alias gd="git diff"
+alias grs="git reset --soft"
+alias grh="git reset --hard"
 
 # Misc aliases
 alias stat="stat -x"
