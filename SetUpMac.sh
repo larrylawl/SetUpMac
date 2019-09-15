@@ -13,4 +13,4 @@ echo "Setting up directories..."
 $dir/SetUpDirectories.sh
 
 echo "Symlinking dot files..."
-$dir/SetUpSymlinks.sh
+$dir/SetUpHardlinks.sh
