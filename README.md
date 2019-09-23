@@ -1,6 +1,6 @@
 # SetUpMac
 Minimal setup for Mac. <br>
-1. Download packages
+1. Downloads packages
 2. Hardlinks config files in `/DotFiles` to home directory
 3. Sets up directories
 
