@@ -1,5 +1,5 @@
 #!/bin/bash
-# This script creates symlinks from ./dotFiles to home directory
+# This script creates hard links from ./DotFiles to home directory
 
 dir=$(pwd)
 DotDir=$dir/DotFiles
