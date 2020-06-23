@@ -1,8 +1,8 @@
 #!/bin/bash
-# This script creates hard links from ./DotFiles to home directory
+# This script creates hard links from ./dot-files to home directory
 
 dir=$(pwd)
-DotDir=$dir/DotFiles
+DotDir=$dir/dot-files
 rgx="\.[A-Za-z0-9]" # ignore '.' and '..'
 
 for file in $(ls -a $DotDir); do
